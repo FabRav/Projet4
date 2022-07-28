@@ -684,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -748,6 +748,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -770,7 +771,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
 
 .bgc-dark-slate-blue {
@@ -778,33 +779,38 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976c;
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: #fce1d5 !important;
+}
+
+.a-propos h1,
+.a-propos p {
+    color: #3f3f3f !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF !important;
+    background: #f3976c;
+    color: #3f3f3f !important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: #FFFFFF !important;
+    color: #3f3f3f !important;
 }
 
 .ltc-white {
-    color: #FFFFFF !important;
+    color: #fff !important;
 }
 
 .ltc-white:hover {
-    color: #cccccc !important;
+    color: #ccc !important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C !important;
+    color: #f3976c !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -817,11 +823,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -830,6 +836,14 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+.black {
+    color: #050505 !important;
+}
+
+.blackcontact {
+    color: #030303 !important;
 }
 
 /* ajout contrast */
